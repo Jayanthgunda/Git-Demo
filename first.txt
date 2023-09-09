@@ -1,1 +1,50 @@
-hello world this is the first text file.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   four.txt
+
+jayanth@Jayanths-MacBook-Pro gitdemo % git commit -m "add four file"
+[main c047577] add four file
+ Committer: Jayanth Gunda <jayanth@Jayanths-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+)
+ create mode 100644 four.txt
+jayanth@Jayanths-MacBook-Pro gitdemo % git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+jayanth@Jayanths-MacBook-Pro gitdemo % git remote add origin https://github.com/Jayanthgunda/Git-Demo.git
+error: remote origin already exists.
+jayanth@Jayanths-MacBook-Pro gitdemo % git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 825 bytes | 825.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Jayanthgunda/Git-Demo.git
+   930c6c0..c047577  main -> main
+branch 'main' set up to track 'origin/main'.
+jayanth@Jayanths-MacBook-Pro gitdemo % git checkout second.txt
+Updated 0 paths from the index
+jayanth@Jayanths-MacBook-Pro gitdemo % git checkout second.txt
+Updated 1 path from the index
+jayanth@Jayanths-MacBook-Pro gitdemo % 
+ *  History restored 
