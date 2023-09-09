@@ -1,0 +1,8 @@
+To https://github.com/Jayanthgunda/Git-Demo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+jayanth@Jayanths-MacBook-Pro gitdemo % git checkout second.txt
+Updated 1 path from the index
+jayanth@Jayanths-MacBook-Pro gitdemo % git log
+commit 930c6c06a8f0a078efe3f47696cd4094eb8c470a (HEAD -> main, origin/main)
+Author: Jayanth Gunda <jayanth@Jayanth
